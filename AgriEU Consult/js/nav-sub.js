@@ -40,7 +40,7 @@
           <circle cx="16.5" cy="10.2" r="1" fill="var(--color-accent)"/>
         </svg>
         <span class="logo-text">
-          <span class="logo-name">AgriEU Consult</span>
+          <span class="logo-name">WOAgriTech</span>
           <span class="logo-tagline">Kenya &rarr; EU Market Access</span>
         </span>
       </a>
@@ -91,14 +91,14 @@
           </svg>
         </div>
         <div>
-          <div class="wp-name">AgriEU Consult</div>
+          <div class="wp-name">WOAgriTech</div>
           <div class="wp-status">🟢 Typically replies within 1 hour</div>
         </div>
         <button class="wp-close" aria-label="Close chat">&times;</button>
       </div>
       <div class="wp-body">
         <div class="wp-bubble">
-          <p>👋 Hello! Welcome to <strong>AgriEU Consult</strong>.</p>
+          <p>👋 Hello! Welcome to <strong>WOAgriTech</strong>.</p>
           <p style="margin-top:8px">We help Kenyan farmers navigate EU market regulations — EUDR, food safety standards, pesticide limits, and more.</p>
           <p style="margin-top:8px">How can we help you today?</p>
           <div class="wp-time">AgriEU Team · Now</div>
