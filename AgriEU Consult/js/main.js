@@ -1,6 +1,6 @@
 /**
  * ============================================================
- * main.js — AgriEU Consult Global JavaScript
+ * main.js — WOAgriTech Global JavaScript
  * ------------------------------------------------------------
  * Handles:
  *   1. Dark/light mode toggle (persisted in sessionStorage)
@@ -155,7 +155,7 @@
    * ────────────────────────────────────────────────────────── */
   const WA_NUMBER = '254792818278';  // Number without + prefix (international format)
   const WA_MESSAGE = encodeURIComponent(
-    'Hello AgriEU Consult! I am a Kenyan farmer and I need help understanding EU market regulations for my products. Can you assist?'
+    'Hello WOAgriTech! I am a Kenyan farmer and I need help understanding EU market regulations for my products. Can you assist?'
   );
 
   // Build WhatsApp URL
