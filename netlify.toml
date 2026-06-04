@@ -1,8 +1,0 @@
-# netlify.toml — Netlify build configuration for AgriEU Consult
-# This file tells Netlify where the website files are located.
-# All HTML/CSS/JS files are inside the "AgriEU Consult/" subfolder.
-
-[build]
-  # No build command needed — this is a static HTML site
-  publish = "AgriEU Consult"
-
