@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<!--
+  ============================================================
+  library.html — WOAgriTech EUDR Library
+  ============================================================
+  A knowledge resource hub covering:
+    - EUDR overview
+    - Product-specific regulation summaries
+    - Compliance checklist table
+    - Downloadable resource links
+    - FAQ accordion
+  ============================================================
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EUDR Library — WOAgriTech</title>
+  <meta name="description" content="Comprehensive library of EU Deforestation Regulation (EUDR) and food safety requirements for Kenyan agricultural exporters. Coffee, tea, meat, avocado, cocoa, soya, and more."/>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><circle cx='20' cy='20' r='20' fill='%231a6b35'/><path d='M20 8 C12 14 10 22 14 28 C18 34 26 32 28 24 C30 16 24 10 20 8Z' fill='white'/></svg>"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&family=Work+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="../css/tokens.css"/>
+  <link rel="stylesheet" href="../css/base.css"/>
+  <link rel="stylesheet" href="../css/components.css"/>
+  <script src="../js/nav-sub.js" defer></script>
+  <script src="../js/main.js" defer></script>
+</head>
+<body>
+<main id="main-content">
+
+  <!-- Page Hero -->
+  <!-- Page Hero: real agricultural background photo -->
+  <div class="page-hero" style="background-image: url('https://perfectdailygrind.com/wp-content/uploads/2022/07/image5-5.jpg');">
+    <nav aria-label="Breadcrumb" style="max-width:var(--content-wide);margin:0 auto var(--space-4);padding-inline:var(--space-6)">
+      <ol class="breadcrumb" style="justify-content:center">
+        <li><a href="../index.html" style="color:rgba(255,255,255,0.7)">Home</a></li>
+        <li style="color:rgba(255,255,255,0.9)">EUDR Library</li>
+      </ol>
+    </nav>
+    <h1 class="page-hero-title">EUDR Regulation Library</h1>
+    <p class="page-hero-subtitle">A comprehensive reference for Kenyan farmers and exporters on EU Deforestation Regulation and food safety standards — by product category.</p>
+  </div>
+
+  <!-- Library Navigation Tabs -->
+  <div style="background:var(--color-surface);border-bottom:1px solid var(--color-border);position:sticky;top:72px;z-index:50;overflow-x:auto">
+    <div style="display:flex;gap:0;max-width:var(--content-wide);margin:0 auto;padding-inline:var(--space-6)">
+      <a href="#overview" style="padding:var(--space-4) var(--space-5);font-size:var(--text-sm);font-weight:600;color:var(--color-text-muted);white-space:nowrap;border-bottom:2px solid transparent;text-decoration:none">Overview</a>
+      <a href="#coffee" style="padding:var(--space-4) var(--space-5);font-size:var(--text-sm);font-weight:600;color:var(--color-text-muted);white-space:nowrap;border-bottom:2px solid transparent;text-decoration:none">☕ Coffee</a>
+      <a href="#tea" style="padding:var(--space-4) var(--space-5);font-size:var(--text-sm);font-weight:600;color:var(--color-text-muted);white-space:nowrap;border-bottom:2px solid transparent;text-decoration:none">🫖 Tea</a>
+      <a href="#meat" style="padding:var(--space-4) var(--space-5);font-size:var(--text-sm);font-weight:600;color:var(--color-text-muted);white-space:nowrap;border-bottom:2px solid transparent;text-decoration:none">🥩 Meat</a>
+      <a href="#avocado" style="padding:var(--space-4) var(--space-5);font-size:var(--text-sm);font-weight:600;color:var(--color-text-muted);white-space:nowrap;border-bottom:2px solid transparent;text-decoration:none">🥑 Avocado</a>
+      <a href="#soya" style="padding:var(--space-4) var(--space-5);font-size:var(--text-sm);font-weight:600;color:var(--color-text-muted);white-space:nowrap;border-bottom:2px solid transparent;text-decoration:none">🌱 Soya</a>
+      <a href="#cocoa" style="padding:var(--space-4) var(--space-5);font-size:var(--text-sm);font-weight:600;color:var(--color-text-muted);white-space:nowrap;border-bottom:2px solid transparent;text-decoration:none">🍫 Cocoa</a>
+      <a href="#wood" style="padding:var(--space-4) var(--space-5);font-size:var(--text-sm);font-weight:600;color:var(--color-text-muted);white-space:nowrap;border-bottom:2px solid transparent;text-decoration:none">🪵 Wood</a>
+      <a href="#checklist" style="padding:var(--space-4) var(--space-5);font-size:var(--text-sm);font-weight:600;color:var(--color-primary);white-space:nowrap;border-bottom:2px solid var(--color-primary);text-decoration:none">✅ Checklist</a>
+    </div>
+  </div>
+
+
+  <!-- ════════════════════════════════════════════════════
+       OVERVIEW
+  ════════════════════════════════════════════════════════ -->
+  <section class="section" id="overview" aria-label="EUDR overview">
+    <div class="container">
+      <div class="split-section">
+        <div class="reveal">
+          <span class="section-overline">Regulation EU 2023/1115</span>
+          <h2 style="font-size:var(--text-xl);font-weight:800;margin-bottom:var(--space-5)">EU Deforestation Regulation — Complete Overview</h2>
+          <p style="color:var(--color-text-muted);line-height:1.75;margin-bottom:var(--space-4)">
+            The <strong style="color:var(--color-text)">EU Deforestation Regulation (EUDR)</strong>, officially Regulation (EU) 2023/1115, entered into force on 29 June 2023. It prohibits companies from placing or making available on the EU market, or exporting from the EU, specific commodities and products that were produced on deforested or forest-degraded land.
+          </p>
+          <p style="color:var(--color-text-muted);line-height:1.75;margin-bottom:var(--space-4)">
+            The key cut-off date is <strong style="color:var(--color-text)">31 December 2020</strong> — all production must have occurred on land that was not deforested or degraded after this date. This applies whether the land is in Kenya, any other supplying country, or even within the EU.
+          </p>
+          <p style="color:var(--color-text-muted);line-height:1.75">
+            Operators placing products on the EU market must exercise <strong style="color:var(--color-text)">due diligence</strong> — collecting relevant information, assessing risks, and taking measures to mitigate them — before placing products on the market or exporting them.
+          </p>
+        </div>
+        <div class="reveal">
+          <div style="background:var(--color-eu-blue-highlight);border:2px solid var(--color-eu-blue);border-radius:var(--radius-xl);padding:var(--space-6);margin-bottom:var(--space-4)">
+            <h3 style="font-size:var(--text-base);font-weight:700;color:var(--color-eu-blue);margin-bottom:var(--space-4)">🇪🇺 Regulation Timeline</h3>
+            <div style="display:flex;flex-direction:column;gap:var(--space-3)">
+              <div style="display:flex;gap:var(--space-3)">
+                <span style="font-weight:700;font-size:var(--text-xs);color:var(--color-eu-blue);min-width:80px">Jun 2023</span>
+                <span style="font-size:var(--text-xs);color:var(--color-text-muted)">EUDR enters into force</span>
+              </div>
+              <div style="display:flex;gap:var(--space-3)">
+                <span style="font-weight:700;font-size:var(--text-xs);color:var(--color-eu-blue);min-width:80px">Dec 2024</span>
+                <span style="font-size:var(--text-xs);color:var(--color-text-muted)">Deadline for large operators &amp; non-SMEs</span>
+              </div>
+              <div style="display:flex;gap:var(--space-3)">
+                <span style="font-weight:700;font-size:var(--text-xs);color:var(--color-eu-blue);min-width:80px">Jun 2025</span>
+                <span style="font-size:var(--text-xs);color:var(--color-text-muted)">Deadline for SMEs and small operators</span>
+              </div>
+              <div style="display:flex;gap:var(--space-3)">
+                <span style="font-weight:700;font-size:var(--text-xs);color:var(--color-error);min-width:80px">Ongoing</span>
+                <span style="font-size:var(--text-xs);color:var(--color-text-muted)">EU customs enforcement &amp; country benchmarking</span>
+              </div>
+            </div>
+          </div>
+          <div style="background:var(--color-error-highlight);border:1px solid var(--color-error);border-radius:var(--radius-lg);padding:var(--space-5)">
+            <p style="font-size:var(--text-sm);font-weight:700;color:var(--color-error);margin-bottom:var(--space-2)">⚠ Penalties for Non-Compliance</p>
+            <ul style="font-size:var(--text-xs);color:var(--color-text-muted);list-style:disc;padding-left:var(--space-5);display:flex;flex-direction:column;gap:var(--space-1)">
+              <li>Fines: up to 4% of operator's EU annual turnover</li>
+              <li>Temporary exclusion from EU procurement contracts</li>
+              <li>Confiscation of products and revenues</li>
+              <li>Mandatory corrective measures</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ════════════════════════════════════════════════════
+       PRODUCT-SPECIFIC SECTIONS
+  ════════════════════════════════════════════════════════ -->
+  <section class="section section--alt" id="coffee" aria-label="Coffee regulations">
+    <div class="container">
+      <span class="section-overline">Product Guide</span>
+      <h2 style="font-size:var(--text-xl);font-weight:800;margin-bottom:var(--space-6)">☕ Coffee — EUDR Compliance Requirements</h2>
+      <div class="split-section">
+        <div>
+          <p style="color:var(--color-text-muted);line-height:1.75;margin-bottom:var(--space-4)">
+            Coffee is one of Kenya's most valuable exports, with over 67% going to EU markets (Germany, Italy, Finland, UK via Rotterdam). Under EUDR, all coffee and coffee-derived products (roasted, ground, instant) are in scope.
+          </p>
+          <h3 style="font-size:var(--text-base);font-weight:700;margin-bottom:var(--space-3)">Specific Requirements for Coffee</h3>
+          <ul style="font-size:var(--text-sm);color:var(--color-text-muted);list-style:disc;padding-left:var(--space-5);display:flex;flex-direction:column;gap:var(--space-2)">
+            <li>GPS polygon data for each coffee plot (at least 4 corner points)</li>
+            <li>Evidence that the plot was not carved from forest after 31 Dec 2020</li>
+            <li>Country and region of production (county-level in Kenya)</li>
+            <li>Mass balance or segregation chain-of-custody for processed coffee</li>
+            <li>Internal risk assessment filed in the EU TRACES NT system</li>
+            <li>Due diligence statement reference number before shipment</li>
+          </ul>
+        </div>
+        <div>
+          <h3 style="font-size:var(--text-base);font-weight:700;margin-bottom:var(--space-3)">Key HS Codes (Coffee)</h3>
+          <div class="compliance-table-wrapper">
+            <table class="compliance-table">
+              <thead><tr><th>HS Code</th><th>Description</th><th>EUDR Scope</th></tr></thead>
+              <tbody>
+                <tr><td>0901.11</td><td>Green/unroasted coffee, not decaffeinated</td><td><span class="badge badge-red">In Scope</span></td></tr>
+                <tr><td>0901.12</td><td>Green coffee, decaffeinated</td><td><span class="badge badge-red">In Scope</span></td></tr>
+                <tr><td>0901.21</td><td>Roasted coffee, not decaffeinated</td><td><span class="badge badge-red">In Scope</span></td></tr>
+                <tr><td>0901.22</td><td>Roasted coffee, decaffeinated</td><td><span class="badge badge-red">In Scope</span></td></tr>
+                <tr><td>2101.11</td><td>Extracts, essences, concentrates of coffee</td><td><span class="badge badge-red">In Scope</span></td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="tea" aria-label="Tea regulations">
+    <div class="container">
+      <span class="section-overline">Product Guide</span>
+      <h2 style="font-size:var(--text-xl);font-weight:800;margin-bottom:var(--space-6)">🫖 Tea — Regulatory Requirements</h2>
+      <p style="color:var(--color-text-muted);line-height:1.75;margin-bottom:var(--space-4);max-width:72ch">
+        Tea is not currently listed as a direct EUDR commodity — but Kenyan tea exports face other EU regulations: Regulation (EC) 396/2005 on MRLs is strictly enforced, and several Kenya tea shipments have triggered RASFF alerts for pesticide violations (ethephon, carbendazim). Our team monitors EU border rejection data in real time.
+      </p>
+      <div style="background:var(--color-warning-highlight);border:1px solid var(--color-warning);border-radius:var(--radius-lg);padding:var(--space-5);max-width:600px">
+        <p style="font-size:var(--text-sm);font-weight:700;color:var(--color-warning)">⚠ Tea RASFF Alerts — Kenya 2023–2024</p>
+        <p style="font-size:var(--text-xs);color:var(--color-text-muted);margin-top:var(--space-2)">22 RASFF notifications for Kenyan tea in 2023–2024, primarily for pesticide residues exceeding EU MRLs. Most common violations: ethephon, carbendazim, imidacloprid.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt" id="meat" aria-label="Meat regulations">
+    <div class="container">
+      <span class="section-overline">Product Guide</span>
+      <h2 style="font-size:var(--text-xl);font-weight:800;margin-bottom:var(--space-6)">🥩 Meat &amp; Livestock — Dual Regulation</h2>
+      <p style="color:var(--color-text-muted);line-height:1.75;margin-bottom:var(--space-5);max-width:72ch">
+        Kenyan meat exporters face two simultaneous regulatory challenges: EUDR (for cattle grazing land) and EU veterinary health standards (Regulation (EC) 853/2004). Both must be satisfied for any beef or livestock product entering the EU.
+      </p>
+      <div class="grid-2">
+        <div style="background:var(--color-eu-blue-highlight);border:1px solid var(--color-eu-blue);border-radius:var(--radius-lg);padding:var(--space-6)">
+          <h3 style="font-weight:700;font-size:var(--text-base);color:var(--color-eu-blue);margin-bottom:var(--space-3)">EUDR Requirements (Cattle Land)</h3>
+          <ul style="font-size:var(--text-sm);color:var(--color-text-muted);list-style:disc;padding-left:var(--space-5);display:flex;flex-direction:column;gap:var(--space-2)">
+            <li>Proof that grazing land was not converted from forest after 31 Dec 2020</li>
+            <li>GPS boundaries of all grazing plots</li>
+            <li>Herd movement records and farm identification numbers</li>
+          </ul>
+        </div>
+        <div style="background:var(--color-error-highlight);border:1px solid var(--color-error);border-radius:var(--radius-lg);padding:var(--space-6)">
+          <h3 style="font-weight:700;font-size:var(--text-base);color:var(--color-error);margin-bottom:var(--space-3)">Veterinary Standards (Food Safety)</h3>
+          <ul style="font-size:var(--text-sm);color:var(--color-text-muted);list-style:disc;padding-left:var(--space-5);display:flex;flex-direction:column;gap:var(--space-2)">
+            <li>EU-approved slaughterhouse certification required</li>
+            <li>Export health certificate (EHC) from Kenya Veterinary Authority</li>
+            <li>Residue monitoring plan for veterinary drugs</li>
+            <li>Cold chain documentation throughout transport</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ════════════════════════════════════════════════════
+       COMPLIANCE CHECKLIST TABLE
+  ════════════════════════════════════════════════════════ -->
+  <section class="section" id="checklist" aria-label="Compliance checklist">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-overline">At a Glance</span>
+        <h2 class="section-title">Product Compliance Checklist</h2>
+        <p class="section-subtitle">Quick reference for the key requirements by product category.</p>
+      </div>
+
+      <div class="compliance-table-wrapper reveal">
+        <table class="compliance-table">
+          <thead>
+            <tr>
+              <th>Product</th>
+              <th>EUDR Listed</th>
+              <th>GPS Mapping Required</th>
+              <th>Food Safety MRL</th>
+              <th>Export Certificate</th>
+              <th>Risk Level</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>☕ Coffee</strong></td>
+              <td><span class="badge badge-red">Yes</span></td>
+              <td><span class="badge badge-red">Yes</span></td>
+              <td><span class="badge badge-amber">Moderate</span></td>
+              <td>KCB + KEPHIS</td>
+              <td><span class="badge badge-red">HIGH</span></td>
+            </tr>
+            <tr>
+              <td><strong>🫖 Tea</strong></td>
+              <td><span class="badge badge-green">No</span></td>
+              <td><span class="badge badge-green">Not required</span></td>
+              <td><span class="badge badge-red">Strict MRL</span></td>
+              <td>KEPHIS phyto cert.</td>
+              <td><span class="badge badge-amber">MEDIUM</span></td>
+            </tr>
+            <tr>
+              <td><strong>🥩 Beef/Cattle</strong></td>
+              <td><span class="badge badge-red">Yes (grazing land)</span></td>
+              <td><span class="badge badge-red">Yes (grazing plots)</span></td>
+              <td><span class="badge badge-red">Vet drugs residues</span></td>
+              <td>KVA Export Health Cert</td>
+              <td><span class="badge badge-red">HIGH</span></td>
+            </tr>
+            <tr>
+              <td><strong>🥑 Avocado</strong></td>
+              <td><span class="badge badge-red">Yes</span></td>
+              <td><span class="badge badge-red">Yes</span></td>
+              <td><span class="badge badge-amber">Moderate</span></td>
+              <td>KEPHIS phyto cert.</td>
+              <td><span class="badge badge-red">HIGH</span></td>
+            </tr>
+            <tr>
+              <td><strong>🌱 Soya</strong></td>
+              <td><span class="badge badge-red">Yes</span></td>
+              <td><span class="badge badge-red">Yes</span></td>
+              <td><span class="badge badge-green">Low</span></td>
+              <td>KEBS quality cert.</td>
+              <td><span class="badge badge-red">HIGH</span></td>
+            </tr>
+            <tr>
+              <td><strong>🍫 Cocoa</strong></td>
+              <td><span class="badge badge-red">Yes</span></td>
+              <td><span class="badge badge-red">Yes</span></td>
+              <td><span class="badge badge-amber">Cadmium limits</span></td>
+              <td>KEBS quality cert.</td>
+              <td><span class="badge badge-amber">MEDIUM</span></td>
+            </tr>
+            <tr>
+              <td><strong>🪵 Wood</strong></td>
+              <td><span class="badge badge-red">Yes</span></td>
+              <td><span class="badge badge-red">Yes (forest plots)</span></td>
+              <td><span class="badge badge-green">N/A</span></td>
+              <td>KFS export permit</td>
+              <td><span class="badge badge-red">HIGH</span></td>
+            </tr>
+            <tr>
+              <td><strong>💐 Flowers</strong></td>
+              <td><span class="badge badge-green">No</span></td>
+              <td><span class="badge badge-green">Not required</span></td>
+              <td><span class="badge badge-red">Strict MRL</span></td>
+              <td>KEPHIS phyto cert.</td>
+              <td><span class="badge badge-amber">MEDIUM</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p style="font-size:var(--text-xs);color:var(--color-text-muted);margin-top:var(--space-4);text-align:center">
+        Last updated: January 2025. Regulation requirements may change — contact us for the latest status.
+      </p>
+
+      <div style="text-align:center;margin-top:var(--space-8)">
+        <a href="contact.html" class="btn btn-primary btn-lg">Get Expert Assessment for Your Product</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Downloads & Resources -->
+  <section class="section section--alt" aria-label="Resources">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-overline">Resources</span>
+        <h2 class="section-title">Reference Documents &amp; Downloads</h2>
+      </div>
+      <div class="grid-3 reveal-group">
+        <div class="feature-card reveal">
+          <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg></div>
+          <h3 class="feature-title">EUDR Official Text</h3>
+          <p class="feature-desc">The full text of Regulation (EU) 2023/1115 from EUR-Lex, the official EU legal database.</p>
+          <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R1115" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm" style="margin-top:var(--space-4)">View on EUR-Lex →</a>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon" style="background:var(--color-accent-highlight);color:var(--color-accent)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"/></svg></div>
+          <h3 class="feature-title">Global Forest Watch</h3>
+          <p class="feature-desc">Satellite-based forest monitoring tool for generating deforestation evidence required by EUDR — free to use.</p>
+          <a href="https://www.globalforestwatch.org" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm" style="margin-top:var(--space-4)">Open GFW →</a>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon" style="background:var(--color-eu-blue-highlight);color:var(--color-eu-blue)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg></div>
+          <h3 class="feature-title">EU TRACES NT Portal</h3>
+          <p class="feature-desc">The EU online system where EUDR due diligence statements must be submitted and reference numbers obtained.</p>
+          <a href="https://traces.ec.europa.eu" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm" style="margin-top:var(--space-4)">Access TRACES →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+<script data-pplx-inline-edit>
+(function () {
+  if (window === window.top) return;
+
+  const allowedParentOrigins = ["https://www.perplexity.ai","https://perplexity.ai","https://testing.perplexity.ai","https://staging.perplexity.ai","https://*.preview.i.perplexity.ai","http://localhost:3000","http://127.0.0.1:3000","http://localhost:5173","http://127.0.0.1:5173"];
+  const MAX_FONT_BYTES = 500 * 1024;
+  const MAX_TOTAL_FONT_BYTES = 2 * 1024 * 1024;
+  let scrollForwarding = false;
+  let scrollRaf = 0;
+  let trustedTopOrigin = null;
+
+  // Allow entries like "https://*.preview.i.perplexity.ai" — the wildcard
+  // matches a single DNS label (no dots), so "https://*.foo" cannot stretch
+  // across multiple labels.
+  function matchesAllowedOrigin(origin) {
+    if (!origin) return false;
+    for (const entry of allowedParentOrigins) {
+      if (!entry.includes("*")) {
+        if (entry === origin) return true;
+        continue;
+      }
+      const pattern = new RegExp(
+        "^" +
+          entry.replace(/[.+?^${}()|[\]\\]/g, "\\$&").replace(/\*/g, "[^.]+") +
+          "$",
+      );
+      if (pattern.test(origin)) return true;
+    }
+    return false;
+  }
+
+  // Trust decision: when the sender is same-origin-visible (event.origin is a
+  // real origin like https://www.perplexity.ai) we trust event.origin directly.
+  // When event.origin is "null" (opaque broker srcdoc), we fall back to the
+  // broker's stamped `parentOrigin` to identify the top window. The fallback
+  // is claim-only — we rely on the browser's native `targetOrigin` enforcement
+  // on the response path (see postToTrustedTop) to ensure replies can't be
+  // delivered to anyone but the actual top window of that claimed origin.
+  function getTrustedParentOrigin(event) {
+    const forwardedParentOrigin =
+      typeof event.data.parentOrigin === "string" ? event.data.parentOrigin : null;
+    const parentOrigin = event.origin === "null" ? forwardedParentOrigin : event.origin;
+    return matchesAllowedOrigin(parentOrigin) ? parentOrigin : null;
+  }
+
+  // All responses go to window.top with targetOrigin = the allowlisted origin.
+  // An attacker that iframes us inside their own null-origin broker can claim
+  // any parentOrigin they like, but the browser will drop the reply whenever
+  // the real top's origin doesn't match — so the screenshot never leaves.
+  function postToTrustedTop(message) {
+    if (!trustedTopOrigin) return;
+    try {
+      window.top.postMessage(message, trustedTopOrigin);
+    } catch (_error) {}
+  }
+
+  function inlineAll(original, clone) {
+    if (original.nodeType !== 1 || clone.nodeType !== 1) return;
+
+    try {
+      const computedStyle = getComputedStyle(original);
+      // cssText on a computed style is the serialized declaration in modern
+      // Chromium/Safari — a single read beats enumerating ~400 longhand
+      // properties. Firefox returns "" here, so we fall back on empty.
+      const serialized = computedStyle.cssText;
+      if (serialized) {
+        clone.style.cssText = serialized;
+      } else {
+        const parts = new Array(computedStyle.length);
+        for (let index = 0; index < computedStyle.length; index += 1) {
+          const property = computedStyle[index];
+          parts[index] = `${property}:${computedStyle.getPropertyValue(property)};`;
+        }
+        clone.style.cssText = parts.join("");
+      }
+    } catch (_error) {}
+
+    const originalChildren = original.children;
+    const clonedChildren = clone.children;
+    for (
+      let index = 0;
+      index < originalChildren.length && index < clonedChildren.length;
+      index += 1
+    ) {
+      inlineAll(originalChildren[index], clonedChildren[index]);
+    }
+  }
+
+  function extractFontUrl(srcValue) {
+    const matches = [
+      ...srcValue.matchAll(
+        /url\(["']?([^"')]+)["']?\)(?:\s*format\(["']?([^"')]+)["']?\))?/gi,
+      ),
+    ];
+    if (matches.length === 0) return null;
+    const woff2 = matches.find((m) => m[2] && m[2].toLowerCase().includes("woff2"));
+    if (woff2) return woff2[1];
+    const woff = matches.find((m) => m[2] && m[2].toLowerCase().includes("woff"));
+    if (woff) return woff[1];
+    return matches[0][1];
+  }
+
+  // Cache resolved font URL -> data URI across captures. Fonts on a page
+  // essentially never change, and a batch run emits multiple captures back to
+  // back — without this we'd refetch + re-base64 every time.
+  const fontDataUriCache = new Map();
+  const SRC_DECLARATION_RE = /src\s*:\s*[^;}]+/i;
+
+  async function fetchAsDataUri(url) {
+    if (fontDataUriCache.has(url)) return fontDataUriCache.get(url);
+    let dataUri = null;
+    try {
+      const response = await fetch(url, { mode: "cors", credentials: "omit" });
+      if (response.ok) {
+        const blob = await response.blob();
+        if (blob.size <= MAX_FONT_BYTES) {
+          dataUri = await new Promise((resolve) => {
+            const reader = new FileReader();
+            reader.onloadend = () =>
+              resolve(typeof reader.result === "string" ? reader.result : null);
+            reader.onerror = () => resolve(null);
+            reader.readAsDataURL(blob);
+          });
+        }
+      }
+    } catch (_error) {
+      dataUri = null;
+    }
+    fontDataUriCache.set(url, dataUri);
+    return dataUri;
+  }
+
+  function collectFontFaceRuleTexts() {
+    const rules = [];
+    for (const sheet of document.styleSheets) {
+      let cssRules;
+      try {
+        cssRules = sheet.cssRules;
+      } catch (_error) {
+        continue;
+      }
+      if (!cssRules) continue;
+      for (const rule of cssRules) {
+        const cssText = rule.cssText || "";
+        if (cssText.startsWith("@font-face")) rules.push(cssText);
+      }
+    }
+    return rules;
+  }
+
+  async function buildInlinedFontCss() {
+    const ruleTexts = collectFontFaceRuleTexts();
+    if (ruleTexts.length === 0) return null;
+
+    const resolved = ruleTexts.map((cssText) => {
+      if (!SRC_DECLARATION_RE.test(cssText)) return null;
+      const srcMatch = cssText.match(/src\s*:\s*([^;}]+)[;}]/i);
+      if (!srcMatch) return null;
+      const url = extractFontUrl(srcMatch[1]);
+      if (!url) return null;
+      try {
+        return { cssText, url: new URL(url, document.baseURI).href };
+      } catch (_error) {
+        return null;
+      }
+    });
+
+    const dataUris = await Promise.all(
+      resolved.map((entry) => (entry ? fetchAsDataUri(entry.url) : Promise.resolve(null))),
+    );
+
+    const inlined = [];
+    let totalBytes = 0;
+    for (let index = 0; index < resolved.length; index += 1) {
+      const entry = resolved[index];
+      const dataUri = dataUris[index];
+      if (!entry || !dataUri) continue;
+      const approxBytes = dataUri.length * 0.75;
+      if (totalBytes + approxBytes > MAX_TOTAL_FONT_BYTES) break;
+      totalBytes += approxBytes;
+      inlined.push(entry.cssText.replace(SRC_DECLARATION_RE, `src: url("${dataUri}")`));
+    }
+    return inlined.length > 0 ? inlined.join("\n") : null;
+  }
+
+  function stripExternal(clone) {
+    const images = clone.querySelectorAll("img");
+    for (let index = 0; index < images.length; index += 1) {
+      const src = images[index].getAttribute("src");
+      if (src && !src.startsWith("data:")) images[index].removeAttribute("src");
+    }
+
+    const elements = clone.querySelectorAll("*");
+    for (let index = 0; index < elements.length; index += 1) {
+      const style = elements[index].style.cssText;
+      if (style && style.includes("url(")) {
+        elements[index].style.cssText = style.replace(
+          /url\(["']?(?!data:)[^)"']*["']?\)/gi,
+          "none",
+        );
+      }
+    }
+  }
+
+  function emitScroll() {
+    scrollRaf = 0;
+    if (!scrollForwarding) return;
+    postToTrustedTop({
+      type: "INLINE_EDIT_SCROLL",
+      scrollX: window.scrollX,
+      scrollY: window.scrollY,
+    });
+  }
+
+  window.addEventListener(
+    "scroll",
+    function () {
+      if (!scrollForwarding || scrollRaf) return;
+      scrollRaf = requestAnimationFrame(emitScroll);
+    },
+    { passive: true, capture: true },
+  );
+
+  async function handleCaptureRequest(event) {
+    const requestId = event.data.requestId;
+    const scrollX = window.scrollX;
+    const scrollY = window.scrollY;
+    const width = window.innerWidth;
+    const height = window.innerHeight;
+
+    function postResult(dataUrl) {
+      postToTrustedTop({
+        type: "INLINE_EDIT_SCREENSHOT_RESULT",
+        requestId,
+        dataUrl,
+        scrollX,
+        scrollY,
+      });
+    }
+
+    try {
+      // Wait for any pending web fonts to resolve so both inline metrics and
+      // the @font-face inlining below see the same loaded faces.
+      if (document.fonts && document.fonts.ready) {
+        try {
+          await document.fonts.ready;
+        } catch (_error) {}
+      }
+
+      const clone = document.documentElement.cloneNode(true);
+      inlineAll(document.documentElement, clone);
+
+      const removedNodes = clone.querySelectorAll("script,link[rel=\"stylesheet\"],style");
+      for (let index = 0; index < removedNodes.length; index += 1) {
+        removedNodes[index].remove();
+      }
+
+      stripExternal(clone);
+
+      // Re-embed web fonts as data-URI @font-face rules so the SVG rasterizer
+      // can resolve them — external font URLs aren't fetched during
+      // foreignObject rendering, which would otherwise force a fallback face
+      // and change text metrics.
+      const inlinedFontCss = await buildInlinedFontCss();
+      if (inlinedFontCss) {
+        const styleEl = document.createElement("style");
+        styleEl.textContent = inlinedFontCss;
+        const head = clone.querySelector("head");
+        if (head) head.appendChild(styleEl);
+        else clone.insertBefore(styleEl, clone.firstChild);
+      }
+
+      const html = new XMLSerializer().serializeToString(clone);
+      const svg =
+        `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}">` +
+        '<foreignObject width="100%" height="100%">' +
+        `<div xmlns="http://www.w3.org/1999/xhtml" style="width:${width}px;height:${height}px;overflow:hidden">` +
+        `<div style="position:relative;left:-${scrollX}px;top:-${scrollY}px">` +
+        html +
+        "</div></div></foreignObject></svg>";
+      const svgUrl = `data:image/svg+xml;charset=utf-8,${encodeURIComponent(svg)}`;
+      const image = new Image();
+      image.onload = function () {
+        const canvas = document.createElement("canvas");
+        canvas.width = width;
+        canvas.height = height;
+        canvas.getContext("2d").drawImage(image, 0, 0);
+        postResult(canvas.toDataURL("image/png"));
+      };
+      image.onerror = function () {
+        postResult(null);
+      };
+      image.src = svgUrl;
+    } catch (_error) {
+      postResult(null);
+    }
+  }
+
+  window.addEventListener("message", function (event) {
+    if (!event.data) return;
+    // Only accept messages from the direct parent frame. Blocks sibling /
+    // unrelated-window postMessage senders that could otherwise reach us.
+    if (event.source !== window.parent) return;
+
+    const trustedParentOrigin = getTrustedParentOrigin(event);
+    if (!trustedParentOrigin) return;
+    trustedTopOrigin = trustedParentOrigin;
+
+    if (event.data.type === "INLINE_EDIT_SCROLL_START") {
+      scrollForwarding = true;
+      emitScroll();
+      return;
+    }
+
+    if (event.data.type === "INLINE_EDIT_SCROLL_STOP") {
+      scrollForwarding = false;
+      if (scrollRaf) cancelAnimationFrame(scrollRaf);
+      scrollRaf = 0;
+      return;
+    }
+
+    if (event.data.type !== "INLINE_EDIT_CAPTURE_REQUEST") return;
+
+    handleCaptureRequest(event);
+  });
+})();
+
+
+</script></body>
+</html>
