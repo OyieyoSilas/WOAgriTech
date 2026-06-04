@@ -27,7 +27,7 @@
     <div class="header-inner">
 
       <!-- Logo (links back to root index) -->
-      <a href="../index.html" class="site-logo" aria-label="AgriEU Consult — Home">
+      <a href="../index.html" class="site-logo" aria-label="WOAgriTech — Home">
         <svg viewBox="0 0 40 40" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
           <circle cx="20" cy="20" r="20" fill="var(--color-primary)"/>
           <path d="M20 8 C12 14 10 22 14 28 C18 34 26 32 28 24 C30 16 24 10 20 8Z"
