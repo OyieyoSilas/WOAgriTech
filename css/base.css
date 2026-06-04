@@ -1,0 +1,147 @@
+/*
+ * ============================================================
+ * base.css — WOAgriTech Global Reset & Base Styles
+ * ------------------------------------------------------------
+ * Universal reset, typography base, accessibility utilities,
+ * and scroll behaviour. Loaded on every page.
+ *
+ * Maintenance: Avoid editing unless changing global behaviour.
+ * Component-level styles live in components.css.
+ * ============================================================
+ */
+
+/* ── BOX MODEL RESET ──────────────────────────────────────── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ── HTML ROOT ────────────────────────────────────────────── */
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
+  hanging-punctuation: first last;
+  scroll-padding-top: var(--space-16);
+}
+
+/* ── BODY ─────────────────────────────────────────────────── */
+body {
+  min-height: 100dvh;
+  line-height: 1.65;
+  font-family: var(--font-body, sans-serif);
+  font-size: var(--text-base);
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  transition: background-color var(--transition-slow),
+              color var(--transition-slow);
+}
+
+/* ── MEDIA ────────────────────────────────────────────────── */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* ── TYPOGRAPHY ───────────────────────────────────────────── */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  text-wrap: balance;
+  line-height: 1.2;
+  color: var(--color-text);
+}
+
+p, li, figcaption {
+  text-wrap: pretty;
+  max-width: 72ch;
+}
+
+/* ── LINKS ────────────────────────────────────────────────── */
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+  transition: color var(--transition-interactive);
+}
+a:hover { color: var(--color-primary-hover); }
+
+/* ── LISTS ────────────────────────────────────────────────── */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* ── FORM ELEMENTS ────────────────────────────────────────── */
+input, button, textarea, select {
+  font: inherit;
+  color: inherit;
+}
+
+/* ── BUTTONS ──────────────────────────────────────────────── */
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+/* ── TABLE ────────────────────────────────────────────────── */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* ── INTERACTIVE TRANSITIONS ──────────────────────────────── */
+a, button, [role='button'], [role='link'],
+input, textarea, select {
+  transition:
+    color var(--transition-interactive),
+    background var(--transition-interactive),
+    border-color var(--transition-interactive),
+    box-shadow var(--transition-interactive),
+    opacity var(--transition-interactive);
+}
+
+/* ── FOCUS VISIBLE ────────────────────────────────────────── */
+:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 3px;
+  border-radius: var(--radius-sm);
+}
+
+/* ── TEXT SELECTION ───────────────────────────────────────── */
+::selection {
+  background: var(--color-primary-highlight);
+  color: var(--color-text);
+}
+
+/* ── REDUCED MOTION ───────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ── SCREEN READER ONLY ───────────────────────────────────── */
+/* Use .sr-only on text that describes elements visually for  */
+/* screen readers but should not appear on screen.           */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
