@@ -101,11 +101,11 @@
           <p>👋 Hello! Welcome to <strong>WOAgriTech</strong>.</p>
           <p style="margin-top:8px">We help Kenyan farmers navigate EU market regulations — EUDR, food safety standards, pesticide limits, and more.</p>
           <p style="margin-top:8px">How can we help you today?</p>
-          <div class="wp-time">AgriEU Team · Now</div>
+          <div class="wp-time">WOAgriTech Team · Now</div>
         </div>
       </div>
       <div class="wp-footer">
-        <a href="https://wa.me/254792818278?text=Hello%20AgriEU%20Consult!%20I%20need%20help%20with%20EU%20market%20regulations."
+        <a href="https://wa.me/254792818278?text=Hello%20WOAgriTech%20Consult!%20I%20need%20help%20with%20EU%20market%20regulations."
            target="_blank" rel="noopener noreferrer">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347zM12 0C5.373 0 0 5.373 0 12c0 2.124.558 4.122 1.535 5.856L.057 23.7a.75.75 0 00.916.917l5.896-1.476A11.954 11.954 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22a9.96 9.96 0 01-5.186-1.449l-.371-.22-3.847.963.98-3.787-.242-.391A9.96 9.96 0 012 12c0-5.514 4.486-10 10-10s10 4.486 10 10-4.486 10-10 10z"/></svg>
           Start Chat on WhatsApp
@@ -133,7 +133,7 @@
             <path d="M20 16 C18 20 16 24 14 28" stroke="var(--color-accent)" stroke-width="1.5" stroke-linecap="round"/>
           </svg>
           <span class="logo-text">
-            <span class="logo-name">AgriEU Consult</span>
+            <span class="logo-name">WOAgriTech Consult</span>
             <span class="logo-tagline">Kenya &rarr; EU Market Access</span>
           </span>
         </a>
@@ -170,12 +170,12 @@
         </div>
         <div class="footer-contact-item">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="flex-shrink:0;color:var(--color-primary)"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-          <span>info@agrieu-consult.co.ke</span>
+          <span>oyieyosilas@gmail.com</span>
         </div>
       </div>
     </div>
     <div class="footer-bottom" style="max-width:var(--content-wide);margin:0 auto">
-      <p class="footer-copy">&copy; <span id="footer-year"></span> AgriEU Consult Ltd. All rights reserved.</p>
+      <p class="footer-copy">&copy; <span id="footer-year"></span> WOAgriTech Ltd. All rights reserved.</p>
       <div class="footer-social">
         <a href="#" aria-label="LinkedIn"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg></a>
         <a href="#" aria-label="X / Twitter"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.741l7.73-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
