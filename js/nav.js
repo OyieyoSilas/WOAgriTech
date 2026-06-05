@@ -170,7 +170,7 @@
             <circle cx="16.5" cy="10.2" r="1" fill="var(--color-accent)"/>
           </svg>
           <span class="logo-text">
-            <span class="logo-name">WOAgriTech </span>
+            <span class="logo-name">WOAgriTech</span>
             <span class="logo-tagline">Kenya &rarr; EU Market Access</span>
           </span>
         </a>
@@ -214,7 +214,7 @@
         </div>
         <div class="footer-contact-item">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-          <span>oyieyosilas@gmail.com</span>
+          <span>info@woagritech.co.ke</span>
         </div>
         <div class="footer-contact-item">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="flex-shrink:0;color:#25d366">

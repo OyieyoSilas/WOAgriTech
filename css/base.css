@@ -2,11 +2,10 @@
  * ============================================================
  * base.css — WOAgriTech Global Reset & Base Styles
  * ------------------------------------------------------------
- * Universal reset, typography base, accessibility utilities,
- * and scroll behaviour. Loaded on every page.
- *
- * Maintenance: Avoid editing unless changing global behaviour.
- * Component-level styles live in components.css.
+ * Updated June 2026:
+ *  - Font is now Calibri (system font — no web font import needed)
+ *  - Humanised line-heights and paragraph spacing
+ *  - Layout fills full viewport width on all screen sizes
  * ============================================================
  */
 
@@ -21,27 +20,31 @@
 
 /* ── HTML ROOT ────────────────────────────────────────────── */
 html {
-  -moz-text-size-adjust: none;
   -webkit-text-size-adjust: none;
   text-size-adjust: none;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  /* Calibri renders crisply without aggressive subpixel smoothing */
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: auto;
   text-rendering: optimizeLegibility;
   scroll-behavior: smooth;
-  hanging-punctuation: first last;
   scroll-padding-top: var(--space-16);
 }
 
-/* ── BODY ─────────────────────────────────────────────────── */
+/* ── BODY — full width, Calibri ───────────────────────────── */
 body {
   min-height: 100dvh;
-  line-height: 1.65;
-  font-family: var(--font-body, sans-serif);
+  width: 100%;
+  /* Natural paragraph line-height for Calibri */
+  line-height: 1.7;
+  font-family: var(--font-body, 'Calibri', sans-serif);
   font-size: var(--text-base);
+  font-weight: 400;
   color: var(--color-text);
   background-color: var(--color-bg);
   transition: background-color var(--transition-slow),
               color var(--transition-slow);
+  /* Prevent horizontal scroll on small devices */
+  overflow-x: hidden;
 }
 
 /* ── MEDIA ────────────────────────────────────────────────── */
@@ -51,17 +54,29 @@ img, picture, video, canvas, svg {
   height: auto;
 }
 
-/* ── TYPOGRAPHY ───────────────────────────────────────────── */
+/* ── TYPOGRAPHY — Calibri humanised ──────────────────────── */
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-display);
+  font-family: var(--font-display, 'Calibri', sans-serif);
+  /* Calibri headings look best slightly tighter */
+  line-height: 1.25;
+  font-weight: 700;
+  letter-spacing: -0.01em;
   text-wrap: balance;
-  line-height: 1.2;
   color: var(--color-text);
 }
 
-p, li, figcaption {
+/* Slightly looser body text — more natural reading feel */
+p {
   text-wrap: pretty;
-  max-width: 72ch;
+  line-height: 1.75;
+  margin-bottom: 0.75em;
+}
+
+p:last-child { margin-bottom: 0; }
+
+li, figcaption {
+  text-wrap: pretty;
+  line-height: 1.65;
 }
 
 /* ── LINKS ────────────────────────────────────────────────── */
@@ -70,7 +85,7 @@ a {
   text-decoration: none;
   transition: color var(--transition-interactive);
 }
-a:hover { color: var(--color-primary-hover); }
+a:hover { color: var(--color-primary-hover); text-decoration: underline; }
 
 /* ── LISTS ────────────────────────────────────────────────── */
 ul[role='list'],
@@ -132,8 +147,6 @@ input, textarea, select {
 }
 
 /* ── SCREEN READER ONLY ───────────────────────────────────── */
-/* Use .sr-only on text that describes elements visually for  */
-/* screen readers but should not appear on screen.           */
 .sr-only {
   position: absolute;
   width: 1px;
