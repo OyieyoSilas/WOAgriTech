@@ -10,12 +10,20 @@
 (function () {
   'use strict';
 
+  /* ── PATH DETECTION ──────────────────────────────────────────────────────
+   * index.html lives at the repo root → base = ''   (images/, pages/x.html)
+   * pages/*.html live one level deep  → base = '../' (../images/, ../x.html)
+   * This single nav.js file serves both levels correctly.
+   */
+  const isRoot = !window.location.pathname.includes('/pages/');
+  const base   = isRoot ? '' : '../'; // prefix applied to all relative links
+
   /* ── SHARED NAVIGATION HTML ─────────────────────────────── */
   const navHTML = `
   <!-- EU Regulation Notice Banner -->
   <div class="alert-banner">
     🇪🇺 EUDR Compliance Deadline — Ensure your products meet EU Deforestation Regulation standards.
-    <a href="pages/library.html">Learn more &rarr;</a>
+    <a href="${base}pages/library.html">Learn more &rarr;</a>
   </div>
 
   <!-- Sticky Site Header -->
@@ -23,9 +31,9 @@
     <div class="header-inner">
 
       <!-- Logo: WOAgriTech Official logo image -->
-      <a href="../index.html" class="site-logo" aria-label="WOAgriTech — Home" style="display:flex;align-items:center;">
+      <a href="${base}index.html" class="site-logo" aria-label="WOAgriTech — Home" style="display:flex;align-items:center;">
         <img
-          src="../images/WOAgriTech-Logo-Official.jpg"
+          src="${base}images/WOAgriTech-Logo-Official.jpg"
           alt="WOAgriTech logo"
           style="height:56px;width:auto;display:block;background:#fff;border-radius:6px;padding:3px 8px;"
           loading="eager"
@@ -35,12 +43,12 @@
       <!-- Primary Navigation -->
       <nav aria-label="Main navigation">
         <ul class="primary-nav" role="list">
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="pages/services.html">Services</a></li>
-          <li><a href="pages/about.html">About Us</a></li>
-          <li><a href="pages/library.html">EUDR Library</a></li>
-          <li><a href="pages/news.html">News &amp; Media</a></li>
-          <li><a href="pages/contact.html">Contact</a></li>
+          <li><a href="${base}index.html">Home</a></li>
+          <li><a href="${base}pages/services.html">Services</a></li>
+          <li><a href="${base}pages/about.html">About Us</a></li>
+          <li><a href="${base}pages/library.html">EUDR Library</a></li>
+          <li><a href="${base}pages/news.html">News &amp; Media</a></li>
+          <li><a href="${base}pages/contact.html">Contact</a></li>
         </ul>
       </nav>
 
@@ -52,7 +60,7 @@
         </button>
 
         <!-- CTA Button -->
-        <a href="pages/contact.html" class="btn btn-primary btn-sm">
+        <a href="${base}pages/contact.html" class="btn btn-primary btn-sm">
           Get Consultation
         </a>
 
@@ -144,9 +152,9 @@
       <!-- Brand Column -->
       <div class="footer-brand">
         <!-- Footer logo: WOAgriTech Official logo -->
-        <a href="../index.html" class="site-logo" aria-label="WOAgriTech Home" style="display:flex;align-items:center;">
+        <a href="${base}index.html" class="site-logo" aria-label="WOAgriTech Home" style="display:flex;align-items:center;">
           <img
-            src="../images/WOAgriTech-Logo-Official.jpg"
+            src="${base}images/WOAgriTech-Logo-Official.jpg"
             alt="WOAgriTech logo"
             style="height:52px;width:auto;display:block;filter:brightness(0) invert(1);"
             loading="lazy"
@@ -159,11 +167,11 @@
       <div>
         <p class="footer-heading">Services</p>
         <ul class="footer-links" role="list">
-          <li><a href="pages/services.html#eudr">EUDR Compliance</a></li>
-          <li><a href="pages/services.html#food-safety">Food Safety Standards</a></li>
-          <li><a href="pages/services.html#certification">Product Certification</a></li>
-          <li><a href="pages/services.html#training">Farmer Training</a></li>
-          <li><a href="pages/services.html#market-entry">Market Entry Strategy</a></li>
+          <li><a href="${base}pages/services.html#eudr">EUDR Compliance</a></li>
+          <li><a href="${base}pages/services.html#food-safety">Food Safety Standards</a></li>
+          <li><a href="${base}pages/services.html#certification">Product Certification</a></li>
+          <li><a href="${base}pages/services.html#training">Farmer Training</a></li>
+          <li><a href="${base}pages/services.html#market-entry">Market Entry Strategy</a></li>
         </ul>
       </div>
 
@@ -171,11 +179,11 @@
       <div>
         <p class="footer-heading">Company</p>
         <ul class="footer-links" role="list">
-          <li><a href="pages/about.html">About Us</a></li>
-          <li><a href="pages/about.html#team">Our Team</a></li>
-          <li><a href="pages/about.html#vision">Vision &amp; Mission</a></li>
-          <li><a href="pages/news.html">News &amp; Media</a></li>
-          <li><a href="pages/library.html">EUDR Library</a></li>
+          <li><a href="${base}pages/about.html">About Us</a></li>
+          <li><a href="${base}pages/about.html#team">Our Team</a></li>
+          <li><a href="${base}pages/about.html#vision">Vision &amp; Mission</a></li>
+          <li><a href="${base}pages/news.html">News &amp; Media</a></li>
+          <li><a href="${base}pages/library.html">EUDR Library</a></li>
         </ul>
       </div>
 
