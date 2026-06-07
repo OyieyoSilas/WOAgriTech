@@ -29,7 +29,7 @@
       <!-- Logo: WOAT final image — links back to homepage -->
       <a href="../index.html" class="site-logo" aria-label="WOAgriTech — Home" style="display:flex;align-items:center;">
         <img
-          src="../images/WOAgriTech-Logo-Official.jpg"
+          src="../images/WOAgriTech-Logo-Official.png"
           alt="WOAgriTech logo"
           style="height:56px;width:auto;display:block;background:#fff;border-radius:6px;padding:3px 8px;"
           loading="eager"
@@ -119,7 +119,7 @@
         <a href="../index.html" class="site-logo">
           <!-- Footer logo: WOAT final image -->
           <img
-            src="../images/WOAgriTech-Logo-Official.jpg"
+            src="../images/WOAgriTech-Logo-Official.png"
             alt="WOAgriTech logo"
             style="height:52px;width:auto;display:block;background:#fff;border-radius:6px;padding:3px 8px;"
             loading="lazy"

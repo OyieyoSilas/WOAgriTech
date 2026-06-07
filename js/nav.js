@@ -33,7 +33,7 @@
       <!-- Logo: WOAgriTech Official logo image -->
       <a href="${base}index.html" class="site-logo" aria-label="WOAgriTech — Home" style="display:flex;align-items:center;">
         <img
-          src="${base}images/WOAgriTech-Logo-Official.jpg"
+          src="${base}images/WOAgriTech-Logo-Official.png"
           alt="WOAgriTech logo"
           style="height:56px;width:auto;display:block;background:#fff;border-radius:6px;padding:3px 8px;"
           loading="eager"
@@ -154,7 +154,7 @@
         <!-- Footer logo: WOAgriTech Official logo -->
         <a href="${base}index.html" class="site-logo" aria-label="WOAgriTech Home" style="display:flex;align-items:center;">
           <img
-            src="${base}images/WOAgriTech-Logo-Official.jpg"
+            src="${base}images/WOAgriTech-Logo-Official.png"
             alt="WOAgriTech logo"
             style="height:52px;width:auto;display:block;background:#fff;border-radius:6px;padding:3px 8px;"
             loading="lazy"
