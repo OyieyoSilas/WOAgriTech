@@ -121,7 +121,7 @@
           <img
             src="../images/WOAgriTech-Logo-Official.jpg"
             alt="WOAgriTech logo"
-            style="height:52px;width:auto;display:block;filter:brightness(0) invert(1);"
+            style="height:52px;width:auto;display:block;background:#fff;border-radius:6px;padding:3px 8px;"
             loading="lazy"
           >
         </a>
