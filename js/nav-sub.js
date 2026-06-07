@@ -26,23 +26,14 @@
   <header class="site-header" role="banner">
     <div class="header-inner">
 
-      <!-- Logo (links back to root index) -->
-      <a href="../index.html" class="site-logo" aria-label="WOAgriTech — Home">
-        <svg viewBox="0 0 40 40" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="20" cy="20" r="20" fill="var(--color-primary)"/>
-          <path d="M20 8 C12 14 10 22 14 28 C18 34 26 32 28 24 C30 16 24 10 20 8Z"
-                fill="white" opacity="0.9"/>
-          <path d="M20 28 L20 34" stroke="white" stroke-width="2" stroke-linecap="round"/>
-          <path d="M20 16 C18 20 16 24 14 28" stroke="var(--color-accent)"
-                stroke-width="1.5" stroke-linecap="round"/>
-          <circle cx="20" cy="9" r="1.2" fill="var(--color-accent)"/>
-          <circle cx="23.5" cy="10.2" r="1" fill="var(--color-accent)"/>
-          <circle cx="16.5" cy="10.2" r="1" fill="var(--color-accent)"/>
-        </svg>
-        <span class="logo-text">
-          <span class="logo-name">WOAgriTech</span>
-          <span class="logo-tagline">Kenya &rarr; EU Market Access</span>
-        </span>
+      <!-- Logo: WOAT final image — links back to homepage -->
+      <a href="../index.html" class="site-logo" aria-label="WOAgriTech — Home" style="display:flex;align-items:center;">
+        <img
+          src="../images/woat-logo-final-v3.png"
+          alt="WOAgriTech logo"
+          style="height:56px;width:auto;display:block;background:#fff;border-radius:6px;padding:3px 8px;"
+          loading="eager"
+        >
       </a>
 
       <!-- Primary Navigation -->
@@ -126,16 +117,13 @@
     <div class="footer-grid">
       <div class="footer-brand">
         <a href="../index.html" class="site-logo">
-          <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:36px;height:36px">
-            <circle cx="20" cy="20" r="20" fill="var(--color-primary)"/>
-            <path d="M20 8 C12 14 10 22 14 28 C18 34 26 32 28 24 C30 16 24 10 20 8Z" fill="white" opacity="0.9"/>
-            <path d="M20 28 L20 34" stroke="white" stroke-width="2" stroke-linecap="round"/>
-            <path d="M20 16 C18 20 16 24 14 28" stroke="var(--color-accent)" stroke-width="1.5" stroke-linecap="round"/>
-          </svg>
-          <span class="logo-text">
-            <span class="logo-name">WOAgriTech</span>
-            <span class="logo-tagline">Kenya &rarr; EU Market Access</span>
-          </span>
+          <!-- Footer logo: WOAT final image -->
+          <img
+            src="../images/woat-logo-final-v3.png"
+            alt="WOAgriTech logo"
+            style="height:52px;width:auto;display:block;filter:brightness(0) invert(1);"
+            loading="lazy"
+          >
         </a>
         <p>Empowering Kenyan farmers and exporters to meet EU market standards — EUDR compliance to food safety certifications.</p>
       </div>
