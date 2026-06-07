@@ -22,10 +22,10 @@
   <header class="site-header" role="banner">
     <div class="header-inner">
 
-      <!-- Logo: WOAT final logo image -->
+      <!-- Logo: WOAgriTech Official logo image -->
       <a href="../index.html" class="site-logo" aria-label="WOAgriTech — Home" style="display:flex;align-items:center;">
         <img
-          src="../images/woat-logo-final-v3.png"
+          src="../images/WOAgriTech-Logo-Official.jpg"
           alt="WOAgriTech logo"
           style="height:56px;width:auto;display:block;background:#fff;border-radius:6px;padding:3px 8px;"
           loading="eager"
@@ -143,10 +143,10 @@
 
       <!-- Brand Column -->
       <div class="footer-brand">
-        <!-- Footer logo: WOAT final image (white bg blends on dark footer) -->
+        <!-- Footer logo: WOAgriTech Official logo -->
         <a href="../index.html" class="site-logo" aria-label="WOAgriTech Home" style="display:flex;align-items:center;">
           <img
-            src="../images/woat-logo-final-v3.png"
+            src="../images/WOAgriTech-Logo-Official.jpg"
             alt="WOAgriTech logo"
             style="height:52px;width:auto;display:block;filter:brightness(0) invert(1);"
             loading="lazy"
